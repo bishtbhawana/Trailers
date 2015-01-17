@@ -1,6 +1,6 @@
 <h1>Listing actors</h1>
 
-<table>
+<table class="table table-striped">
   <thead>
     <tr>
       <th>Name</th>
@@ -20,9 +20,9 @@
         <td><%= actor.dob %></td>
         <td><%= actor.no_of_movies %></td>
         <td><%= actor.about %></td>
-        <td><%= link_to 'Show', actor %></td>
-        <td><%= link_to 'Edit', edit_actor_path(actor) %></td>
-        <td><%= link_to 'Destroy', actor, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', actor,:class => 'btn' %></td>
+        <td><%= link_to 'Edit', edit_actor_path(actor),:class => 'btn' %></td>
+        <td><%= link_to 'Destroy', actor, method: :delete, data: { confirm: 'Are you sure?' },:class => 'btn' %></td>
       </tr>
     <% end %>
   </tbody>
@@ -30,4 +30,4 @@
 
 <br>
 
-<%= link_to 'New Actor', new_actor_path %>
+<%= link_to 'New Actor', new_actor_path, :class => 'btn' %>

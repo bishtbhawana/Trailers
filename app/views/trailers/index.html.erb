@@ -1,6 +1,6 @@
 <h1>Listing trailers</h1>
 
-<table>
+<table class="table table-striped">
   <thead>
     <tr>
       <th>Video link</th>
@@ -14,9 +14,9 @@
       <tr>
         <td><%= trailer.video_link %></td>
         <td><%= trailer.views %></td>
-        <td><%= link_to 'Show', trailer %></td>
-        <td><%= link_to 'Edit', edit_trailer_path(trailer) %></td>
-        <td><%= link_to 'Destroy', trailer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', trailer,:class => 'btn' %></td>
+        <td><%= link_to 'Edit', edit_trailer_path(trailer),:class => 'btn' %></td>
+        <td><%= link_to 'Destroy', trailer, method: :delete, data: { confirm: 'Are you sure?' },:class => 'btn' %></td>
       </tr>
     <% end %>
   </tbody>
@@ -24,4 +24,4 @@
 
 <br>
 
-<%= link_to 'New Trailer', new_trailer_path %>
+<%= link_to 'New Trailer', new_trailer_path, :class => 'btn' %>

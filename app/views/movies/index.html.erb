@@ -1,6 +1,6 @@
 <h1>Listing movies</h1>
 
-<table>
+<table class="table table-striped">
   <thead>
     <tr>
       <th>Name</th>
@@ -16,9 +16,9 @@
         <td><%= movie.name %></td>
         <td><%= movie.release_date %></td>
         <td><%= movie.rating %></td>
-        <td><%= link_to 'Show', movie %></td>
-        <td><%= link_to 'Edit', edit_movie_path(movie) %></td>
-        <td><%= link_to 'Destroy', movie, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', movie,:class => 'btn' %></td>
+        <td><%= link_to 'Edit', edit_movie_path(movie),:class => 'btn' %></td>
+        <td><%= link_to 'Destroy', movie, method: :delete, data: { confirm: 'Are you sure?' },:class => 'btn' %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Movie', new_movie_path %>
+<%= link_to 'New Movie', new_movie_path, :class => 'btn' %>

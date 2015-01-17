@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Moive Trailers</title>
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+</head>
+<body>
+	<div class="navbar navbar-static-top navbar-inverse">
+		<div class="navbar-inner">
+			<%= link_to 'Home', '/', :class => 'brand' %>
+			<ul class="nav">
+			  <li class="active">
+			    <%= link_to 'Actors', actors_path %>
+			  </li>
+			  <li><%= link_to 'Movies', movies_path %></li>
+			  <li><%= link_to 'Trailers', trailers_path %></li>
+			</ul>
+		</div>
+	</div>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Trailer Hungama</h1>
+			<p>Stay updated with all new movies trailers</p>
+		</div>
+	</div>
+	<div class="container">
+	<%= yield %>
+	</div>
+</body>
+</html>

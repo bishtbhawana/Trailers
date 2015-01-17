@@ -12,26 +12,26 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br>
+    <%= f.label :name %>
     <%= f.text_field :name %>
   </div>
   <div class="field">
-    <%= f.label :gender %><br>
+    <%= f.label :gender %>
     <%= f.text_field :gender %>
   </div>
   <div class="field">
-    <%= f.label :dob %><br>
+    <%= f.label :dob %>
     <%= f.date_select :dob %>
   </div>
   <div class="field">
-    <%= f.label :no_of_movies %><br>
+    <%= f.label :no_of_movies %>
     <%= f.number_field :no_of_movies %>
   </div>
   <div class="field">
-    <%= f.label :about %><br>
+    <%= f.label :about %>
     <%= f.text_area :about %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit :class => 'btn btn-primary' %>
   </div>
 <% end %>
