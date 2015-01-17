@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @actor.name %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @actor.gender %>
+</p>
+
+<p>
+  <strong>Dob:</strong>
+  <%= @actor.dob %>
+</p>
+
+<p>
+  <strong>No of movies:</strong>
+  <%= @actor.no_of_movies %>
+</p>
+
+<p>
+  <strong>About:</strong>
+  <%= @actor.about %>
+</p>
+
+<%= link_to 'Edit', edit_actor_path(@actor) %> |
+<%= link_to 'Back', actors_path %>

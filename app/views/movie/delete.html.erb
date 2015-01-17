@@ -1,0 +1,9 @@
+<%= link_to("Back To List", {:action => 'index'}, :class => 'back-link')%>
+<h2>Delete Movie</h2>
+<%= form_for(:movie, :url => {:action => "destroy" , :id => @movie.id}) do |f|%>
+<p>Are you sure you want to delete this subject?</p>
+<p><%= @movie.name %></p>
+<div>
+	<%= submit_tag("Delete Movie")%>
+</div>
+<% end %>

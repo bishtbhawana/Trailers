@@ -1,0 +1,17 @@
+<%= link_to("Back To List", {:action => 'index'}, :class => 'back-link')%>
+<h2>Show Movie Details</h2>
+<table>
+	<tr>
+		<th>Name</th>
+		<td><%= @movie.name%></td>
+	</tr>
+	<tr>
+		<th>Release Date</th>
+		<td><%= @movie.release_date%></td>
+	</tr>
+	
+	<tr>
+		<th>Rating</th>
+		<td><%= @movie.rating%></td>
+	</tr>
+</table>

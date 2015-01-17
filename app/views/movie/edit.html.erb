@@ -1,0 +1,22 @@
+<%= link_to("Back To List", {:action => 'index'}, :class => 'back-link')%>
+<h2>Update Movie</h2>
+<%= form_for(:movie, :url => {:action => "update" , :id => @movie.id}) do |f|%>
+<table>
+	<tr>
+		<th>Name</th>
+		<td><%= f.text_field(:name)%></td>
+	</tr>
+	<tr>
+		<th>Release Date</th>
+		<td><%= f.text_field(:release_date)%></td>
+	</tr>
+	<tr>
+		<th>Rating</th>
+		<td><%= f.text_field(:rating) %></td>
+	</tr>
+	
+</table>
+<div>
+	<%= submit_tag("Update Movie")%>
+</div>
+<% end %>

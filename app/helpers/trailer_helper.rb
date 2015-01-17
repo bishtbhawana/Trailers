@@ -1,0 +1,2 @@
+module TrailerHelper
+end

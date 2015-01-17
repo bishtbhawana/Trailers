@@ -1,0 +1,23 @@
+<h2>Movies</h2>
+<%= link_to("Add New Movie", {:action => 'new'} , :class => 'action new') %>
+<table summary= "Movie List">
+	<tr class="header">
+		
+		<th>Movie</th>
+		<th>Release Date</th>
+		<th>Rating</th>
+		<th>Actions</th>
+	</tr>
+	<% @movies.each do |movie| %>
+	<tr>
+
+		<td><%= movie.name %></td>
+		<td><%= movie.release_date %></td>
+		
+		<td><%= movie.rating %></td>
+		<td><%= link_to("Show", {:action => 'show', :id => movie.id }, :class => 'action show')%>
+			<%= link_to("Edit", {:action => 'edit' ,:id => movie.id}, :class => 'action edit')%></td>
+		<td><%= link_to('Delete', {:action => 'delete', :id => movie.id}, :class => 'action delete')%></td>
+	</tr>
+	<% end %>
+</table>

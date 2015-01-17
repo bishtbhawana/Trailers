@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Video link:</strong>
+  <%= @trailer.video_link %>
+</p>
+
+<p>
+  <strong>Views:</strong>
+  <%= @trailer.views %>
+</p>
+
+<%= link_to 'Edit', edit_trailer_path(@trailer) %> |
+<%= link_to 'Back', trailers_path %>
