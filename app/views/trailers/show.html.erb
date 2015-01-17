@@ -2,7 +2,7 @@
 
 <p>
   <strong>Video link:</strong>
-  <%= @trailer.video_url %>
+  <iframe width="500" height="300" src="<%= @trailer.video_url.gsub "watch?v=", "embed/" %>" frameborder="0"></iframe>
 </p>
 
 <p>
