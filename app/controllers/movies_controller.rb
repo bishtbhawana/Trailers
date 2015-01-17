@@ -24,7 +24,11 @@ class MoviesController < ApplicationController
   # POST /movies
   # POST /movies.json
   def create
+    # raise params[:movie][:actor_ids].inspect
+    actors = Actor.find params[:movie][:actor_ids].reject! { |c| c.empty? }
+
     @movie = Movie.new(movie_params)
+    @movie.actors = actors
 
     respond_to do |format|
       if @movie.save
@@ -41,6 +45,8 @@ class MoviesController < ApplicationController
   # PATCH/PUT /movies/1.json
   def update
     respond_to do |format|
+      actors = Actor.find params[:movie][:actor_ids].reject! { |c| c.empty? }
+      @movie.actors = actors
       if @movie.update(movie_params)
         format.html { redirect_to @movie, notice: 'Movie was successfully updated.' }
         format.json { render :show, status: :ok, location: @movie }
@@ -69,6 +75,6 @@ class MoviesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def movie_params
-      params.require(:movie).permit(:name, :release_date, :rating)
+      params.require(:movie).permit(:name, :release_date, :rating, :actor_ids)
     end
 end

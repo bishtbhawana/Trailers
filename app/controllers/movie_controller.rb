@@ -12,6 +12,7 @@ class MovieController < ApplicationController
   end
 
   def create
+    raise movie_params.inspect
   	@movie = Movie.new(movie_params)
   	if @movie.save
   		redirect_to(:action => 'index')
@@ -43,6 +44,6 @@ class MovieController < ApplicationController
 
   private 
    def movie_params
-   	params.require(:movie).permit(:name,:release_date,:rating)
+   	params.require(:movie).permit(:name,:release_date,:rating, :actor_ids)
    end
 end

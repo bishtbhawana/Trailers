@@ -20,6 +20,10 @@
     <%= f.date_select :release_date %>
   </div>
   <div class="field">
+    <%= f.label :casts %>
+    <%= f.collection_select :actor_ids, Actor.order(:name), :id, :name, {}, {multiple: true, size: 10} %>
+  </div>
+  <div class="field">
     <%= f.label :rating %>
     <%= f.number_field :rating %>
   </div>

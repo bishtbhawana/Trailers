@@ -10,6 +10,12 @@
   <%= @movie.release_date %>
 </p>
 
+
+<p>
+  <strong>Casts:</strong>
+  <%=  @movie.actors.map { |actor| actor.name }.join ", " %>
+</p>
+
 <p>
   <strong>Rating:</strong>
   <%= @movie.rating %>
