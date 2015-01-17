@@ -12,7 +12,7 @@
   <tbody>
     <% @trailers.each do |trailer| %>
       <tr>
-        <td><%= trailer.video_link %></td>
+        <td><%= trailer.video_url %></td>
         <td><%= trailer.views %></td>
         <td><%= link_to 'Show', trailer,:class => 'btn' %></td>
         <td><%= link_to 'Edit', edit_trailer_path(trailer),:class => 'btn' %></td>

@@ -15,6 +15,7 @@ class TrailersController < ApplicationController
   # GET /trailers/new
   def new
     @trailer = Trailer.new
+    # @movie =  Movie.all
   end
 
   # GET /trailers/1/edit
@@ -24,8 +25,9 @@ class TrailersController < ApplicationController
   # POST /trailers
   # POST /trailers.json
   def create
-    @trailer = Trailer.new(trailer_params)
-
+    # raise params[:movie][:movie_id].inspect
+     @trailer = Trailer.new(trailer_params)
+     @trailer.movie_id = params[:movie][:movie_id]
     respond_to do |format|
       if @trailer.save
         format.html { redirect_to @trailer, notice: 'Trailer was successfully created.' }
@@ -69,6 +71,6 @@ class TrailersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def trailer_params
-      params.require(:trailer).permit(:video_link, :views)
+      params.require(:trailer).permit(:video_url, :views)
     end
 end

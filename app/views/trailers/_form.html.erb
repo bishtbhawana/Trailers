@@ -10,10 +10,14 @@
       </ul>
     </div>
   <% end %>
+  <div class="field">
+    <%= f.label :movie %>
+    <%= select("movie", "movie_id", Movie.all.collect {|p| [ p.name, p.id ] }, {include_blank: 'None'}) %>
+  </div>
 
   <div class="field">
-    <%= f.label :video_link %>
-    <%= f.text_field :video_link %>
+    <%= f.label :video_url %>
+    <%= f.text_field :video_url %>
   </div>
   <div class="field">
     <%= f.label :views %>
