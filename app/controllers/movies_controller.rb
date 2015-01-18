@@ -29,6 +29,7 @@ class MoviesController < ApplicationController
 
     @movie = Movie.new(movie_params)
     @movie.actors = actors
+    @movie.picture = self.upload_photo
 
     respond_to do |format|
       if @movie.save
@@ -46,8 +47,14 @@ class MoviesController < ApplicationController
   def update
     respond_to do |format|
       actors = Actor.find params[:movie][:actor_ids].reject! { |c| c.empty? }
+
       @movie.actors = actors
-      if @movie.update(movie_params)
+
+      data = movie_params
+      data[:picture] = self.upload_photo
+
+
+      if @movie.update(data)
         format.html { redirect_to @movie, notice: 'Movie was successfully updated.' }
         format.json { render :show, status: :ok, location: @movie }
       else
@@ -77,4 +84,18 @@ class MoviesController < ApplicationController
     def movie_params
       params.require(:movie).permit(:name, :release_date, :rating, :actor_ids)
     end
+
+  protected
+    def upload_photo
+      # raise params[:picture].inspect
+      upload_io = params[:picture]
+
+      File.open( Rails.root.join('public', 'uploads', upload_io.original_filename), 'wb' ) do |file|
+        file.write(upload_io.read)
+      end
+
+      pic = Picture.new :name => upload_io.original_filename
+    end
+
+
 end

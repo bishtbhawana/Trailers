@@ -24,7 +24,11 @@ class ActorsController < ApplicationController
   # POST /actors
   # POST /actors.json
   def create
+
     @actor = Actor.new(actor_params)
+    @actor.picture = self.upload_photo
+    # raise params.inspect
+
 
     respond_to do |format|
       if @actor.save
@@ -40,8 +44,14 @@ class ActorsController < ApplicationController
   # PATCH/PUT /actors/1
   # PATCH/PUT /actors/1.json
   def update
+
+    data = actor_params
+    data[:picture] = self.upload_photo
+
+    # raise data.inspect
+
     respond_to do |format|
-      if @actor.update(actor_params)
+      if @actor.update(data)
         format.html { redirect_to @actor, notice: 'Actor was successfully updated.' }
         format.json { render :show, status: :ok, location: @actor }
       else
@@ -69,6 +79,19 @@ class ActorsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def actor_params
-      params.require(:actor).permit(:name, :gender, :dob, :no_of_movies, :about)
+      params.require(:actor).permit(:name, :gender, :dob, :no_of_movies, :about, :picture)
     end
+
+  protected
+    def upload_photo
+      # raise params[:picture].inspect
+      upload_io = params[:picture]
+
+      File.open( Rails.root.join('public', 'uploads', upload_io.original_filename), 'wb' ) do |file|
+        file.write(upload_io.read)
+      end
+
+      pic = Picture.new :name => upload_io.original_filename
+    end
+
 end

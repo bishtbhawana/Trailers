@@ -4,7 +4,8 @@
   <strong>Name:</strong>
   <%= @movie.name %>
 </p>
-
+  <% image_name = @movie.picture.name rescue nil %>
+          <%= image_tag('/uploads/' + image_name , :width => 100) if image_name %>
 <p>
   <strong>Release date:</strong>
   <%= @movie.release_date %>

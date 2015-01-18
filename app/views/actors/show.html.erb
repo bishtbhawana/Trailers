@@ -4,6 +4,8 @@
   <strong>Name:</strong>
   <%= @actor.name %>
 </p>
+  <% image_name = @actor.picture.name rescue nil %>
+          <%= image_tag('/uploads/' + image_name , :width => 100) if image_name %>
 
 <p>
   <strong>Gender:</strong>

@@ -15,7 +15,11 @@
   <tbody>
     <% @actors.each do |actor| %>
       <tr>
-        <td><%= actor.name %></td>
+        <td>
+          <p><%= actor.name %></p>
+          <% image_name = actor.picture.name rescue nil %>
+          <%= image_tag('/uploads/' + image_name , :width => 100) if image_name %>
+        </td>
         <td><%= actor.gender %></td>
         <td><%= actor.dob %></td>
         <td><%= actor.no_of_movies %></td>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150118060517) do
+ActiveRecord::Schema.define(version: 20150118135845) do
 
   create_table "actors", force: true do |t|
     t.integer  "movie_id"
@@ -40,6 +40,17 @@ ActiveRecord::Schema.define(version: 20150118060517) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "pictures", force: true do |t|
+    t.string   "name"
+    t.integer  "imageable_id"
+    t.string   "imageable_type"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+  end
+
+  add_index "pictures", ["imageable_id", "imageable_type"], name: "index_pictures_on_imageable_id_and_imageable_type", using: :btree
+  add_index "pictures", ["imageable_id"], name: "index_pictures_on_imageable_id", using: :btree
 
   create_table "publics", force: true do |t|
     t.datetime "created_at"
