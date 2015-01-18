@@ -1,8 +1,9 @@
 <h1>Listing trailers</h1>
-
+<%= @test %>
 <table class="table table-striped">
   <thead>
     <tr>
+      <th>Movie Name</th>
       <th>Video link</th>
       <th>Views</th>
       <th colspan="3"></th>
@@ -10,9 +11,10 @@
   </thead>
 
   <tbody>
-    <% @trailers.each do |trailer| %>
+    <% @trailers.reverse.each do |trailer| %>
       <tr>
-        <td><%= trailer.video_thumb.html_safe %></td>
+        <td><%= trailer.movie.name %></td>
+        <td><%= YoutubeHelper::video_thumb(trailer.video_url).html_safe rescue nil %></td>
         <td><%= trailer.views %></td>
         <td><%= link_to 'Show', trailer,:class => 'btn' %></td>
         <td><%= link_to 'Edit', edit_trailer_path(trailer),:class => 'btn' %></td>

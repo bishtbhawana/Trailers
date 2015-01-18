@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  root "publics#index"
+  resources :publics
+
   get 'sessions/new'
 
   get 'users/new'

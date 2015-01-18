@@ -1,10 +1,11 @@
 class TrailersController < ApplicationController
   before_action :set_trailer, only: [:show, :edit, :update, :destroy]
-
+  helper YoutubeHelper
   # GET /trailers
   # GET /trailers.json
   def index
     @trailers = Trailer.all
+    # @test = YoutubeHelper::test
   end
 
   # GET /trailers/1
@@ -42,7 +43,7 @@ class TrailersController < ApplicationController
   # PATCH/PUT /trailers/1
   # PATCH/PUT /trailers/1.json
   def update
-    # raise trailer_params.inspect
+    # raise params[:movie][:movie_id].inspect
     respond_to do |format|
       @trailer.movie_id = params[:movie][:movie_id]
       if @trailer.update(trailer_params)
@@ -73,6 +74,6 @@ class TrailersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def trailer_params
-      params.require(:trailer).permit(:video_url, :views, :movie_id)
+      params.require(:trailer).permit(:video_url, :views)
     end
 end

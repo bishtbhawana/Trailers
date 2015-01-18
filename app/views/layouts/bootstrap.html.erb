@@ -5,6 +5,7 @@
 	<title>Movie Trailers</title>
 	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	 
 </head>
 <body>
 	<div class="navbar navbar-static-top navbar-inverse">
@@ -28,5 +29,8 @@
 	<div class="container">
 	<%= yield %>
 	</div>
+	<script type="text/javascript">
+  $('select').select2();
+</script>
 </body>
 </html>
