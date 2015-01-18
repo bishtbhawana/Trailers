@@ -1,9 +1,9 @@
 <p id="notice"><%= notice %></p>
 
-<p>
+
   <strong>Video link:</strong>
-  <iframe width="500" height="300" src="<%= @trailer.video_url.gsub "watch?v=", "embed/" %>" frameborder="0"></iframe>
-</p>
+  <%= @trailer.video_frame.html_safe %>
+
 
 <p>
   <strong>Views:</strong>

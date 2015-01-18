@@ -42,7 +42,9 @@ class TrailersController < ApplicationController
   # PATCH/PUT /trailers/1
   # PATCH/PUT /trailers/1.json
   def update
+    # raise trailer_params.inspect
     respond_to do |format|
+      @trailer.movie_id = params[:movie][:movie_id]
       if @trailer.update(trailer_params)
         format.html { redirect_to @trailer, notice: 'Trailer was successfully updated.' }
         format.json { render :show, status: :ok, location: @trailer }
@@ -71,6 +73,6 @@ class TrailersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def trailer_params
-      params.require(:trailer).permit(:video_url, :views)
+      params.require(:trailer).permit(:video_url, :views, :movie_id)
     end
 end
