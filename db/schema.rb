@@ -14,6 +14,7 @@
 ActiveRecord::Schema.define(version: 20150119141320) do
 
   create_table "actors", force: true do |t|
+    t.integer  "movie_id"
     t.string   "name"
     t.string   "gender",       limit: 1
     t.date     "dob"
@@ -22,6 +23,8 @@ ActiveRecord::Schema.define(version: 20150119141320) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "actors", ["movie_id"], name: "index_actors_on_movie_id", using: :btree
 
   create_table "actors_movies", id: false, force: true do |t|
     t.integer "movie_id"

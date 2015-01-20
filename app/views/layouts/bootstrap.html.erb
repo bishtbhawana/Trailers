@@ -18,7 +18,13 @@
 			  <li><%= link_to 'Movies', movies_path %></li>
 			  <li><%= link_to 'Trailers', trailers_path %></li>
 			</ul>
+			<% if @current_user %>
+			<%= link_to @current_user + ' Logout', '/logout', :class => 'brand pull-right' %>
+			<% else %>
+			<%= link_to 'Login', '/login', :class => 'brand pull-right' %>
+			<% end %>
 		</div>
+
 	</div>
 	<div class="jumbotron">
 		<div class="container">
@@ -27,6 +33,14 @@
 		</div>
 	</div>
 	<div class="container">
+
+	<% if notice %>
+	<div class="alert alert-danger" role="alert">
+	  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+	  <%= notice %>
+	</div>
+	<% end %>
+
 	<%= yield %>
 	</div>
 	<script type="text/javascript">
