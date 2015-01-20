@@ -76,6 +76,7 @@ class TrailersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def trailer_params
-      params.require(:trailer).permit(:video_url, :views)
+      params.require(:trailer).permit(:video_url, :views , movie: [ :movie_id ])
+
     end
 end
