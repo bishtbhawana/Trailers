@@ -1,0 +1,1989 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"upload",
+				"upload_photo"
+			],
+			[
+				"upl",
+				"upload_photo"
+			],
+			[
+				"pic",
+				"picture"
+			],
+			[
+				"acto",
+				"actor_params"
+			],
+			[
+				"uplo",
+				"upload_io"
+			],
+			[
+				"ra",
+				"raise"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"movie",
+				"movie_params"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"actor",
+				"actor_movies"
+			],
+			[
+				"objec",
+				"get_object_vars"
+			],
+			[
+				"payment",
+				"payment_status"
+			],
+			[
+				"diDeta",
+				"diamondDetails"
+			],
+			[
+				"requ",
+				"request_object"
+			],
+			[
+				"enc_",
+				"enc_customer_id"
+			],
+			[
+				"custom",
+				"customer_id"
+			],
+			[
+				"enc",
+				"enc_customer_id"
+			],
+			[
+				"user",
+				"user_info"
+			],
+			[
+				"lot",
+				"lotNumbers"
+			],
+			[
+				"prevent",
+				"preventDefault"
+			],
+			[
+				"di",
+				"diamonds"
+			],
+			[
+				"end",
+				"end_time"
+			],
+			[
+				"start",
+				"start_time"
+			],
+			[
+				"star",
+				"start_time"
+			],
+			[
+				"page",
+				"pageNum"
+			],
+			[
+				"curr",
+				"current_url_query"
+			],
+			[
+				"currur",
+				"current_url_query"
+			],
+			[
+				"amer",
+				"ampersand_pos"
+			],
+			[
+				"push",
+				"pushState"
+			],
+			[
+				"extra",
+				"extra_params"
+			],
+			[
+				"aja",
+				"ajaxReloadDelayed"
+			],
+			[
+				"prv",
+				"previousData"
+			],
+			[
+				"req",
+				"requestData"
+			],
+			[
+				"pus",
+				"pushState"
+			],
+			[
+				"inp",
+				"_inputs"
+			],
+			[
+				"ma",
+				"match"
+			],
+			[
+				"jqu",
+				"jquery-ui"
+			],
+			[
+				"jq",
+				"jquery"
+			],
+			[
+				"isM",
+				"is_mobile"
+			],
+			[
+				"ship",
+				"shipping_url"
+			],
+			[
+				"emailtem",
+				"email_template"
+			],
+			[
+				"customemai",
+				"customer_email_template"
+			],
+			[
+				"sta",
+				"states"
+			],
+			[
+				"see",
+				"selectedState"
+			],
+			[
+				"cuid",
+				"customerId"
+			],
+			[
+				"isN",
+				"is_numeric"
+			],
+			[
+				"men",
+				"menu_visibility"
+			],
+			[
+				"cond",
+				"conditions"
+			],
+			[
+				"pay",
+				"payment_url"
+			],
+			[
+				"email",
+				"email"
+			],
+			[
+				"cu",
+				"customer_info"
+			],
+			[
+				"loaded",
+				"loaded_fedex"
+			],
+			[
+				"load",
+				"loading_fedex"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"validat",
+				"validationErrors"
+			],
+			[
+				"gues",
+				"guest_password"
+			],
+			[
+				"valigu",
+				"validGuestCustomer"
+			],
+			[
+				"valid",
+				"validates"
+			],
+			[
+				"validG",
+				"validGuest"
+			],
+			[
+				"isG",
+				"isGuest"
+			],
+			[
+				"valiG",
+				"validGuestCustomer"
+			],
+			[
+				"custo",
+				"customer_id"
+			],
+			[
+				"gu",
+				"guest"
+			],
+			[
+				"Cus",
+				"Customer"
+			],
+			[
+				"vali",
+				"valid"
+			],
+			[
+				"produ",
+				"products"
+			],
+			[
+				"fedexer",
+				"fedex_service_code"
+			],
+			[
+				"fedex_service",
+				"fedex_service_code"
+			],
+			[
+				"shi",
+				"shipping_charge"
+			],
+			[
+				"deli",
+				"delivery_text"
+			],
+			[
+				"prod",
+				"product_name"
+			],
+			[
+				"product",
+				"product_name"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"is_ar",
+				"is_a_ring"
+			],
+			[
+				"gr",
+				"group"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"Shi",
+				"Shipping"
+			],
+			[
+				"det",
+				"details"
+			],
+			[
+				"S",
+				"SITE_URL"
+			],
+			[
+				"del",
+				"delivery_text"
+			],
+			[
+				"locat",
+				"location_text"
+			],
+			[
+				"fede",
+				"fedex_location"
+			],
+			[
+				"fed",
+				"fedex_location"
+			],
+			[
+				"ERR",
+				"captchaError"
+			],
+			[
+				"loac",
+				"locations"
+			],
+			[
+				"addre",
+				"address1"
+			],
+			[
+				"add",
+				"address_inputs"
+			],
+			[
+				"fedex",
+				"fedex_pick_up"
+			],
+			[
+				"Fed",
+				"FedExLocations"
+			],
+			[
+				"conf",
+				"confirmation_transaction"
+			],
+			[
+				"send",
+				"send_to"
+			],
+			[
+				"val",
+				"validationErrors"
+			],
+			[
+				"validation",
+				"validationErrors"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"mAR",
+				"margin"
+			],
+			[
+				"amount",
+				"amount_paid"
+			],
+			[
+				"discount",
+				"discount_amount"
+			],
+			[
+				"D",
+				"Diamond"
+			],
+			[
+				"stock_",
+				"stock_type"
+			],
+			[
+				"cusj",
+				"customJewelry"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"access",
+				"accessory"
+			],
+			[
+				"bill",
+				"billingAddress"
+			],
+			[
+				"Cu",
+				"Customer"
+			],
+			[
+				"paym",
+				"payment_options"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"Engravin",
+				"EngravingFont"
+			],
+			[
+				"textS",
+				"texasState"
+			],
+			[
+				"Shippingad",
+				"CartShippingAddress"
+			],
+			[
+				"W",
+				"Wire"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"succ",
+				"success"
+			],
+			[
+				"cust",
+				"customer_id"
+			],
+			[
+				"Session",
+				"SessionComponent"
+			],
+			[
+				"gue",
+				"guest_email"
+			],
+			[
+				"valida",
+				"validation"
+			],
+			[
+				"isGu",
+				"isGuestCustomer"
+			],
+			[
+				"stock_type",
+				"stock_types"
+			],
+			[
+				"Sto",
+				"StockType"
+			],
+			[
+				"loa",
+				"loadModel"
+			],
+			[
+				"grup",
+				"groupedItems"
+			],
+			[
+				"cart",
+				"cart_id"
+			],
+			[
+				"gro",
+				"groups"
+			],
+			[
+				"remo",
+				"remove_button"
+			],
+			[
+				"siz",
+				"size"
+			],
+			[
+				"settf",
+				"settingForm"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/controllers/actors_controller.rb",
+			"settings":
+			{
+				"buffer_size": 2337,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"BASH",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"commit",
+				"SVN: (File) Commit"
+			],
+			[
+				"svn file dif",
+				"SVN: (File) Diff"
+			],
+			[
+				"svn file rever",
+				"SVN: (File) Revert"
+			],
+			[
+				"svn file reve",
+				"SVN: (File) Revert"
+			],
+			[
+				"svn file diff",
+				"SVN: (File) Diff, Custom Revisions…"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"svn file di",
+				"SVN: (File) Diff"
+			],
+			[
+				"svn file update",
+				"SVN: (File) Update"
+			],
+			[
+				" ommit",
+				"SVN: Commit…"
+			],
+			[
+				"comit",
+				"SVN: (File) Commit"
+			],
+			[
+				"svn file commit",
+				"SVN: (File) Commit"
+			],
+			[
+				"svn file bl",
+				"SVN: (File) Blame"
+			],
+			[
+				"svn file blame",
+				"SVN: (File) Blame"
+			],
+			[
+				"svn diff",
+				"SVN: (File) Diff"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"svn fil upda",
+				"SVN: (File) Update"
+			],
+			[
+				"svn file add",
+				"SVN: (File) Add"
+			],
+			[
+				"svn fil reve",
+				"SVN: (File) Revert"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"svn file upd",
+				"SVN: (File) Update"
+			],
+			[
+				"svn fil update",
+				"SVN: (File) Update"
+			],
+			[
+				"svn file bla",
+				"SVN: (File) Blame"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"svn file log",
+				"SVN: (File) Log"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"svnfiledif",
+				"SVN: (File) Diff"
+			],
+			[
+				"svn blame",
+				"SVN: (File) Blame"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"svn log",
+				"SVN: (File) Log"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"pretify",
+				"HTMLPrettify"
+			],
+			[
+				"svn comit",
+				"SVN: (Folder) Commit"
+			],
+			[
+				"svn commit",
+				"SVN: (Folder) Commit"
+			],
+			[
+				"blame",
+				"SVN: (File) Blame"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"SVN FILE DIFF",
+				"SVN: (File) Diff"
+			],
+			[
+				"SVN FILREVE",
+				"SVN: (File) Revert"
+			],
+			[
+				"svn filedi",
+				"SVN: (File) Diff, Custom Revisions…"
+			],
+			[
+				"svn file balme",
+				"SVN: (File) Blame"
+			],
+			[
+				"svnblame",
+				"SVN: (File) Blame"
+			],
+			[
+				"svn filedif",
+				"SVN: (File) Diff, Custom Revisions…"
+			],
+			[
+				"svn file ",
+				"SVN: (File) Diff, Custom Revisions…"
+			],
+			[
+				"svn file",
+				"SVN: (File) Diff, Custom Revisions…"
+			],
+			[
+				"svn ",
+				"SVN: Delete, Interactive…"
+			],
+			[
+				"svn fil diff",
+				"SVN: (File) Diff"
+			],
+			[
+				"filediff",
+				"SVN: (File) Diff"
+			],
+			[
+				"SVN FIL DIFF",
+				"SVN: (File) Diff"
+			],
+			[
+				"svndiff",
+				"SVN: (File) Diff"
+			],
+			[
+				"svn add",
+				"SVN: (File) Add"
+			],
+			[
+				"svnfilediff",
+				"SVN: (File) Diff, Custom Revisions…"
+			],
+			[
+				"svn file dff",
+				"SVN: (File) Diff, Custom Revisions…"
+			],
+			[
+				"svn file cus",
+				"SVN: (File) Diff, Custom Revisions…"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"svn file df",
+				"SVN: (File) Diff"
+			],
+			[
+				"svnfile rever",
+				"SVN: (File) Revert"
+			],
+			[
+				"svn rever",
+				"SVN: (File) Revert"
+			],
+			[
+				"COMMIT",
+				"SVN: (File) Commit"
+			],
+			[
+				"svn clean",
+				"SVN: Cleanup"
+			],
+			[
+				"svn update",
+				"SVN: (File) Update"
+			],
+			[
+				"svn revert",
+				"SVN: (File) Revert"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"xmls",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"htl",
+				"HTMLPrettify"
+			],
+			[
+				"commi",
+				"SVN: (File) Commit"
+			],
+			[
+				"update",
+				"SVN: (File) Update"
+			],
+			[
+				"copyp",
+				"File: Copy Path From Project"
+			],
+			[
+				"copy",
+				"File: Copy Path"
+			],
+			[
+				"cleanup",
+				"SVN: Cleanup"
+			],
+			[
+				"dif",
+				"SVN: (File) Diff, Custom Revisions…"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"revision",
+				"SVN: (File) Diff, Custom Revisions…"
+			],
+			[
+				"revert",
+				"SVN: (File) Revert"
+			],
+			[
+				"rever",
+				"SVN: (File) Revert"
+			],
+			[
+				"path",
+				"File: Copy Path"
+			],
+			[
+				"bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"copypath",
+				"File: Copy Path From Project"
+			],
+			[
+				"javascri",
+				"Set Syntax: JavaScript"
+			],
+			[
+				" ash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"comm",
+				"SVN: (File) Commit"
+			],
+			[
+				"di",
+				"SVN: (File) Diff"
+			],
+			[
+				"addfo",
+				"Project: Add Folder"
+			],
+			[
+				"ad",
+				"Project: Add Folder"
+			],
+			[
+				"addf",
+				"Project: Add Folder"
+			],
+			[
+				"adf",
+				"Project: Add Folder"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"jad",
+				"Set Syntax: JavaDoc"
+			],
+			[
+				"ja",
+				"Set Syntax: Jade"
+			],
+			[
+				"svnlog",
+				"SVN: (Folder) Log"
+			],
+			[
+				"com",
+				"SVN: (File) Commit"
+			],
+			[
+				"svn (file)",
+				"SVN: (File) Revert"
+			],
+			[
+				"svn: (file) ",
+				"SVN: (File) Properties"
+			],
+			[
+				"CUSTOM",
+				"SVN: (File) Diff, Custom Revisions…"
+			],
+			[
+				"log",
+				"SVN: (File) Log"
+			],
+			[
+				"custom",
+				"SVN: (File) Diff, Custom Revisions…"
+			],
+			[
+				"svn: log",
+				"SVN: (File) Log"
+			],
+			[
+				" bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"reve",
+				"File: Revert"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/admin1/master_servers/btrailer",
+		"/home/admin1/master_servers/btrailer/app",
+		"/home/admin1/master_servers/btrailer/app/controllers"
+	],
+	"file_history":
+	[
+		"/home/admin1/master_servers/btrailer/test/controllers/users_controller_test.rb",
+		"/home/admin1/master_servers/btrailer/db/migrate/20150117112900_create_users.rb",
+		"/home/admin1/master_servers/btrailer/config.ru",
+		"/home/admin1/master_servers/btrailer/app/models/actor.rb",
+		"/home/admin1/master_servers/btrailer/app/models/movie.rb",
+		"/home/admin1/master_servers/btrailer/app/views/movies/index.html.erb",
+		"/home/admin1/master_servers/btrailer/app/views/movies/show.html.erb",
+		"/home/admin1/master_servers/btrailer/app/views/actor/index.html.erb",
+		"/home/admin1/master_servers/btrailer/app/views/actors/show.html.erb",
+		"/home/admin1/master_servers/btrailer/app/views/actors/index.html.erb",
+		"/home/admin1/master_servers/btrailer/app/controllers/actors_controller.rb",
+		"/home/admin1/master_servers/btrailer/app/controllers/movies_controller.rb",
+		"/home/admin1/master_servers/btrailer/app/views/movies/_form.html.erb",
+		"/home/admin1/master_servers/btrailer/app/assets/javascripts/movie.js.coffee",
+		"/home/admin1/master_servers/btrailer/app/views/movie/new.html.erb",
+		"/home/admin1/master_servers/btrailer/app/views/movies/new.html.erb",
+		"/home/admin1/master_servers/btrailer/app/models/movie_org.rb",
+		"/home/admin1/master_servers/btrailer/config/application.rb",
+		"/home/admin1/master_servers/btrailer/app/views/actors/_form.html.erb",
+		"/home/admin1/master_servers/btrailer/app/views/trailers/show.html.erb",
+		"/home/admin1/master_servers/btrailer/app/controllers/movie_controller.rb",
+		"/home/admin1/master_servers/btrailer/app/views/actor/show.html.erb",
+		"/home/admin1/master_servers/btrailer/app/helpers/actors_helper.rb",
+		"/home/admin1/master_servers/btrailer/app/assets/stylesheets/actor.css.scss",
+		"/home/admin1/master_servers/btrailer/app/controllers/actor_controller.rb",
+		"/home/admin1/master_servers/btrailer/app/models/picture.rb",
+		"/home/admin1/master_servers/btrailer/app/views/movie/index.html.erb",
+		"/home/admin1/master_servers/btrailer/app/views/movie/show.html.erb",
+		"/home/admin1/master_servers/trailers/README.rdoc",
+		"/home/admin1/master_servers/bhalu/hello.rb",
+		"/home/admin1/master_servers/btrailer/db/migrate/20150117085339_create_actors_movies_join.rb",
+		"/home/admin1/master_servers/btrailer/test/fixtures/actors.yml",
+		"/home/admin1/master_servers/btrailer/app/controllers/application_controller.rb",
+		"/home/admin1/master_servers/btrailer/app/controllers/publics_controller.rb",
+		"/home/admin1/master_servers/btrailer/app/assets/javascripts/actor.js.coffee",
+		"/home/admin1/master_servers/btrailer/db/migrate/20150118135845_create_pictures.rb",
+		"/home/admin1/master_servers/btrailer/test/controllers/actor_controller_test.rb",
+		"/home/admin1/master_servers/btrailer/app/helpers/movies_helper.rb",
+		"/home/admin1/master_servers/btrailer/app/models/actor_org.rb",
+		"/home/admin1/master_servers/btrailer/test/fixtures/movies.yml",
+		"/home/admin1/master_servers/trailers/bhalu",
+		"/home/admin1/master_servers/btrailer/vendor/assets/javascripts/.keep",
+		"/home/admin1/master_servers/btrailer/app/views/movie/delete.html.erb",
+		"/home/admin1/master_servers/btrailer/app/views/layouts/bootstrap.html.erb",
+		"/home/admin1/master_servers/btrailer/app/assets/javascripts/application.js",
+		"/home/admin1/master_servers/btrailer/app/assets/javascripts/movies.js.coffee",
+		"/home/admin1/master_servers/btrailer/app/assets/img/glyphicons-halflings.png",
+		"/home/admin1/master_servers/btrailer/app/assets/img/glyphicons-halflings-white.png",
+		"/home/admin1/master_servers/btrailer/app/views/trailers/index.html.erb",
+		"/home/admin1/master_servers/btrailer/app/assets/stylesheets/site.css",
+		"/home/admin1/master_servers/btrailer/config/routes.rb",
+		"/home/admin1/master_servers/btrailer/public/robots.txt",
+		"/home/admin1/master_servers/btrailer/app/controllers/users_controller.rb",
+		"/home/admin1/master_servers/btrailer/Rakefile",
+		"/home/admin1/master_servers/btrailer/config/boot.rb",
+		"/home/admin1/master_servers/btrailer/bin/bundle",
+		"/home/admin1/master_servers/btrailer/app/views/trailers/_form.html.erb",
+		"/home/admin1/master_servers/trailers/app/models/actor.rb",
+		"/home/admin1/.ssh/config",
+		"/home/admin1/master_servers/trailers/app/models/movie.rb",
+		"/home/admin1/master_servers/btrailer/config/initializers/backtrace_silencers.rb",
+		"/home/admin1/master_servers/btrailer/config/initializers/filter_parameter_logging.rb",
+		"/home/admin1/master_servers/btrailer/config/initializers/session_store.rb",
+		"/home/admin1/master_servers/btrailer/lib/assets/.keep",
+		"/home/admin1/master_servers/trailers/app/views/layouts/application.html.erb",
+		"/home/admin1/master_servers/trailers/app/views/movies/new.html.erb",
+		"/home/admin1/master_servers/trailers/config/routes.rb",
+		"/home/admin1/master_servers/trailers/config/database.yml",
+		"/home/admin1/master_servers/trailers/db/migrate/20150117081408_create_controllers.rb",
+		"/home/admin1/master_servers/trailers/app/controllers/controllers_controller.rb",
+		"/home/admin1/master_servers/trailers/app/models/controller.rb",
+		"/home/admin1/master_servers/trailers/app/assets/javascripts/controllers.coffee",
+		"/home/admin1/master_servers/trailers/app/assets/stylesheets/controllers.scss",
+		"/home/admin1/master_servers/trailers/test/controllers/controllers_controller_test.rb",
+		"/home/admin1/master_servers/trailers/test/fixtures/controllers.yml",
+		"/home/admin1/master_servers/trailers/test/models/controller_test.rb",
+		"/home/admin1/master_servers/trailers/db/migrate/20150117075834_create_movies.rb",
+		"/home/admin1/master_servers/trailers/db/migrate/20150117080227_create_actors.rb",
+		"/home/admin1/master_servers/trailers/db/migrate/20150117080538_create_actor_movies.rb",
+		"/home/admin1/master_servers/trailers/db/migrate/20150117080731_create_trailers.rb",
+		"/home/admin1/master_servers/trailers/task.txt",
+		"/home/admin1/.bash_profile",
+		"/var/www/flat_public/app/controllers/diamonds_controller.php",
+		"/var/www/flat_public/app/config/database.php",
+		"/var/www/flat_public/app/views/elements/DiamondSearch/diamond_advance_filter.ctp",
+		"/var/www/flat_public/app/views/diamonds/add_diamond_to_cart.ctp",
+		"/var/www/flat_public/cake/libs/model/datasources/datasource.php",
+		"/var/www/flat_public/app/views/elements/DiamondDetails/diamond_details_bottom.ctp",
+		"/var/www/flat_public/app/views/elements/email/html/bfg_diamond_admin_notification.ctp",
+		"/var/www/flat_public/app/webroot/js/droppable/bgd_droppable.js",
+		"/var/www/flat_public/app/webroot/credex/Brian Gavin Process Flow Demo (2).ppsx",
+		"/var/www/flat_public/cake/bootstrap.php",
+		"/var/www/flat_public/cake/libs/controller/components/email.php",
+		"/var/www/flat_public/app/controllers/components/email_reader.php",
+		"/var/www/flat_public/app/controllers/components/empty",
+		"/var/www/flat_public/cake/libs/controller/component.php",
+		"/var/www/flat_public/app/tmp/cache/persistent/cake_core_object_map",
+		"/var/www/flat_public/app/config/core.php",
+		"/var/www/flat_public/app/controllers/carts_controller.php",
+		"/var/www/flat_public/app/controllers/components/my_session.php",
+		"/var/www/flat_public/app/controllers/custom_jewelry_millers_controller.php",
+		"/var/www/flat_public/app/webroot/files/preloved_csvs/Melee_included in_setting.csv",
+		"/var/www/flat_public/app/controllers/melees_controller.php",
+		"/var/www/flat_public/app/models/lead_distribution_log.php",
+		"/var/www/flat_public/app/models/melee.php",
+		"/var/www/flat_public/app/webroot/styles/menu.css",
+		"/var/www/flat_public/app/models/invoice_item.php",
+		"/var/www/flat_public/app/tmp/cache/models/cake_model_default_invoice_items",
+		"/var/www/flat_public/app/models/invoice.php",
+		"/var/www/flat_public/app/tmp/cache/models/cake_model_default_invoice_notes",
+		"/var/www/flat_public/app/tmp/cache/models/cake_model_default_ideas",
+		"/var/www/flat_public/app/libs/mongo_lib/model.php",
+		"/var/www/flat_public/app/tmp/cache/models/cake_model_default_opportunities",
+		"/var/www/flat_public/app/models/vendor.php",
+		"/var/www/flat_public/app/tmp/cache/models/cake_model_default_vendors",
+		"/var/www/flat_public/app/models/activity_log.php",
+		"/var/www/flat_public/app/tmp/cache/models/cake_model_default_activity_logs",
+		"/var/www/flat_public/app/tmp/cache/models/cake_model_default_activity_leads",
+		"/var/www/flat_public/app/tmp/cache/models/cake_model_default_accessory_categories",
+		"/var/www/flat_public/app/tmp/cache/models/cake_model_default_accessories",
+		"/var/www/flat_public/app/tmp/cache/models/cake_model_default_products",
+		"/var/www/flat_public/app/tmp/cache/models/cake_model_default_product_opportunities",
+		"/var/www/flat_public/app/tmp/cache/models/cake_model_default_payments",
+		"/var/www/flat_public/app/models/product.php",
+		"/var/www/flat_public/app/controllers/products_controller.php",
+		"/var/www/flat_public/app/models/quickbook.php",
+		"/var/www/flat_public/app/models/quote_item.php",
+		"/var/www/flat_public/app/views/elements/DiamondDetails/diamond_basic_main_info.ctp"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/var/www/flat_public/app/controllers",
+			"/var/www/flat_public/app/views",
+			"/var/www/flat_public/app/controllers",
+			"/var/www/flat_public/app/models",
+			"/var/www/flat_public/app/controllers",
+			"/var/www/flat_public/app/views",
+			"/var/www/flat_public/app",
+			"/var/www/flat_public/app/views",
+			"/var/www/flat_public/app/controllers",
+			"/var/www/flat_public/cake",
+			"/var/www/flat_public/app/views",
+			"/var/www/flat_public/app/controllers",
+			"/var/www/flat_public/app/views",
+			"/var/www/flat_public/app/controllers",
+			"/var/www/flat_public/app/controllers/",
+			"/var/www/flat_public/cake",
+			"/var/www/flat_public/app",
+			"/var/www/flat_public/cake",
+			"/var/www/bgd_public/app/views",
+			"/var/www/bgd_public/app/webroot/live",
+			"/var/www/bgd_public/app/views",
+			"/var/www/bgd_public/app/controllers",
+			"/var/www/bgd_public/app/views",
+			"/var/www/bgd_public/app/controllers",
+			"/var/www/bgd_public/mobile/app/Controller",
+			"/var/www/bgd_public/app/controllers",
+			"/var/www/bgd_public/news/wp-content/themes/custom",
+			"/var/www/bgd_public/app/controllers",
+			"/var/www/bgd_public/app/views",
+			"/var/www/bgd_public/app/models",
+			"/var/www/bgd_public/app",
+			"/var/www/bgd_public/app/models",
+			"/var/www/bgd_public/app/controllers",
+			"/var/www/bgd_public/app/models",
+			"/var/www/bgd_public/app/controllers",
+			"/var/www/bgd_public/app/models",
+			"/var/www/bgd_public/app/controllers",
+			"/var/www/bgd_public/app/views",
+			"/var/www/cup-code/node_modules/coffee-trace/node_modules/",
+			"/var/www/cup-code/node_modules/",
+			"/var/www/bgd_public/app/views",
+			"/var/www/bgd_admin/app/views",
+			"/var/www/play/weinre/node_modules/weinre",
+			"/var/www/bgd_public/app/views",
+			"/home/admin1/.config/sublime-text-3/Packages/SVN",
+			"/var/www/play/weinre/node_modules/weinre/lib",
+			"/var/www/play/weinre/node_modules/weinre/interfaces",
+			"/var/www/play/weinre/node_modules/weinre/lib",
+			"/var/www/play/weinre/node_modules/weinre/web",
+			"/var/www/bgd_staging_admin/app/controllers",
+			"/var/www/bgd_public/app/controllers"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"upload_photo",
+			"map",
+			"<a href=\"#\">Link</a>",
+			"<br>",
+			"Delete Delete",
+			"] =>",
+			"Delete Delete",
+			"controller",
+			"lot_number",
+			"_getStatistics",
+			"verify",
+			"plugin",
+			"cakeplugin",
+			"verify",
+			"user_ip",
+			"    ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"link_alt1",
+			"verify",
+			"node-webkit",
+			"fake_login",
+			"session_id",
+			"enc_customer_id",
+			"fedex_option",
+			"soapclient",
+			"Session->",
+			"touch",
+			"<li><a ",
+			"_get_cost_prices",
+			"DROP DATABASE",
+			"sort",
+			"SORT BY",
+			"base_uri",
+			"enable_cache",
+			"lot_number",
+			" :",
+			"priceMax",
+			" :",
+			"pMax",
+			"HgBBnc62DThM7M5OF72R6BtqQkXJxFu7ga_slmJyFJii1bcGEIaycoTsmO0bO63TpX_plb43hg4MpQVK9ve1QKzglA",
+			"HgBBnc62DThM7M5OF72R6BtqQkXJxFu7ga_slmJyFJii1bcGEIaycoTsmO0bO63TpX_plb43hg4MpQVK9ve1QKzglA==/1420757505",
+			"$verification_link",
+			"verification_link",
+			"listrak",
+			"data('val')",
+			"data(",
+			"priMaxVal",
+			"sizeValues",
+			"data",
+			"sortable",
+			"range:ready",
+			"wire price",
+			"price",
+			"<li><a",
+			"easily",
+			"isGuestUser",
+			"zip",
+			"available_mobile_url",
+			"mobile_site_prompt",
+			"available",
+			"mobile_checks",
+			"mobile_url",
+			"_render_url_action",
+			"available_mobile_url",
+			"mobile_url",
+			"available_mobile_url",
+			"mobile",
+			"Mobile",
+			"mobile",
+			"action",
+			"controller",
+			"mobile_checks",
+			"sprite",
+			"pl-quick-info-icon1",
+			"f0a055",
+			"pr(",
+			"query",
+			"Please Confirm",
+			"Please Confirm Your Order",
+			"please confi",
+			"please conf",
+			"please con",
+			"Please Confirm Your Orde",
+			"Online Order Received Paypal",
+			"Online Order Received Paypal ",
+			"Online Order Received Paypal",
+			"requestac",
+			"request_a",
+			"requestActi",
+			"confirmation",
+			"change_p",
+			"change_pla",
+			"change_p",
+			"change_plac",
+			"customer_email_settings",
+			"alpha",
+			"states",
+			"item_name_trimmed",
+			"item_name",
+			"recei",
+			"selectedState",
+			"state",
+			"selectedState",
+			"countryUsa",
+			"texas",
+			"taxes",
+			"select Pay",
+			"replace",
+			"this.value",
+			"%23",
+			"some",
+			"%23",
+			"loadLocations",
+			"receipt",
+			"guest_customer_id",
+			"_email_receipt",
+			"guest_user_order",
+			"guest",
+			"email re",
+			"email",
+			"Email receipt",
+			"fedex",
+			"pickup",
+			"pick up"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"	",
+			"dateTimetoUS",
+			"dateTimetoUS\nawait setTimeout defer(), 1000\nconsole.log \"Happening\"",
+			"\nawait setTimeout defer(), 1000\nconsole.log \"Happening\"",
+			"\\t\\t",
+			"\\t",
+			"$this->isGuest",
+			"isCustomer"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/actors_controller.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								307,
+								307
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 16,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 427.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 473.0
+	},
+	"project": "trailers.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"movform",
+				"app/views/movies/_form.html.erb"
+			],
+			[
+				"modactor",
+				"app/models/actor.rb"
+			],
+			[
+				"modelmovie",
+				"app/models/movie.rb"
+			],
+			[
+				"movieform",
+				"app/views/movies/_form.html.erb"
+			],
+			[
+				"moviecont",
+				"app/controllers/movies_controller.rb"
+			],
+			[
+				"actoshow",
+				"app/views/actors/show.html.erb"
+			],
+			[
+				"actorindex",
+				"app/views/actors/index.html.erb"
+			],
+			[
+				"actcon",
+				"app/controllers/actors_controller.rb"
+			],
+			[
+				"actoform",
+				"app/views/actors/_form.html.erb"
+			],
+			[
+				"acto",
+				"app/models/actor.rb"
+			],
+			[
+				"movieindex",
+				"app/views/movies/index.html.erb"
+			],
+			[
+				"moviescon",
+				"app/controllers/movies_controller.rb"
+			],
+			[
+				"movicont",
+				"app/controllers/movies_controller.rb"
+			],
+			[
+				"actocon",
+				"app/controllers/actor_controller.rb"
+			],
+			[
+				"movie",
+				"app/views/movie/new.html.erb"
+			],
+			[
+				"movieshow",
+				"app/views/movie/show.html.erb"
+			],
+			[
+				"moviescont",
+				"app/controllers/movies_controller.rb"
+			],
+			[
+				"mode",
+				"app/models/movie.rb"
+			],
+			[
+				"modelmovi",
+				"app/models/movie.rb"
+			],
+			[
+				"movienew",
+				"app/views/movie/new.html.erb"
+			],
+			[
+				"moviecon",
+				"app/controllers/movie_controller.rb"
+			],
+			[
+				"boot",
+				"app/views/layouts/bootstrap.html.erb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"booter",
+				"app/views/layouts/bootstrap.html.erb"
+			],
+			[
+				"app",
+				"config/application.rb"
+			],
+			[
+				"moveinew",
+				"app/views/movies/new.html.erb"
+			],
+			[
+				"database",
+				"app/config/database.php"
+			],
+			[
+				"componemail.php",
+				"cake/libs/controller/components/email.php"
+			],
+			[
+				"componentmel",
+				"cake/libs/controller/components/email.php"
+			],
+			[
+				"compotime",
+				"app/controllers/components/time.php"
+			],
+			[
+				"modelinvoiitem",
+				"app/models/invoice_item.php"
+			],
+			[
+				"modelproduct.php",
+				"app/models/product.php"
+			],
+			[
+				"produc",
+				"app/controllers/products_controller.php"
+			],
+			[
+				"diammaininfo",
+				"app/views/elements/DiamondDetails/diamond_basic_main_info.ctp"
+			],
+			[
+				"appboot",
+				"app/config/bootstrap.php"
+			],
+			[
+				"diamocon",
+				"app/controllers/diamonds_controller.php"
+			],
+			[
+				"diambasiinfo",
+				"app/views/elements/DiamondDetails/diamond_basic_main_info.ctp"
+			],
+			[
+				"appcon",
+				"app/app_controller.php"
+			],
+			[
+				"dibasmain",
+				"app/views/elements/DiamondDetails/diamond_basic_main_info.ctp"
+			],
+			[
+				"diambasic",
+				"app/views/elements/DiamondDetails/diamond_basic_details.ctp"
+			],
+			[
+				"diamodeta",
+				"app/views/diamonds/diamond_details.ctp"
+			],
+			[
+				"diamcon",
+				"app/controllers/diamonds_controller.php"
+			],
+			[
+				"cartscon",
+				"app/controllers/carts_controller.php"
+			],
+			[
+				"appcont",
+				"app/app_controller.php"
+			],
+			[
+				"loader",
+				"app/webroot/scripts/loader.js"
+			],
+			[
+				"diamonlisting",
+				"app/views/diamonds/diamond_listing.ctp"
+			],
+			[
+				"diamoncon",
+				"app/controllers/diamonds_controller.php"
+			],
+			[
+				"custome",
+				"app/models/customer.php"
+			],
+			[
+				"shippin",
+				"app/views/carts/shipping.ctp"
+			],
+			[
+				"carts",
+				"app/controllers/carts_controller.php"
+			],
+			[
+				"cartship",
+				"app/views/carts/shipping.ctp"
+			],
+			[
+				"fedex",
+				"app/controllers/components/fedex.php"
+			],
+			[
+				"compfedex",
+				"app/controllers/components/fedex.php"
+			],
+			[
+				"shiip",
+				"app/views/carts/shipping.ctp"
+			],
+			[
+				"pro",
+				"app/controllers/products_controller.php"
+			],
+			[
+				"megam",
+				"app/views/elements/flat_design_layout/flat_design_mega_menu.ctp"
+			],
+			[
+				"scrip",
+				"app/config/scripts.php"
+			],
+			[
+				"focalsli",
+				"app/webroot/scripts/components/focal-slider.js"
+			],
+			[
+				"megamenu",
+				"app/views/elements/flat_design_layout/flat_design_mega_menu.ctp"
+			],
+			[
+				"modelinvoic.php",
+				"app/models/invoice.php"
+			],
+			[
+				"modelactiilog",
+				"app/models/activity_log.php"
+			],
+			[
+				"helpertime",
+				"cake/libs/view/helpers/time.php"
+			],
+			[
+				"produccon",
+				"app/controllers/products_controller.php"
+			],
+			[
+				"gallctp",
+				"app/views/products/gallery.ctp"
+			],
+			[
+				"webpa",
+				"app/controllers/web_pages_controller.php"
+			],
+			[
+				"pagination",
+				"app/views/setting_categories/_pagination.ctp"
+			],
+			[
+				"_pagi",
+				"app/views/diamonds/_pagination.ctp"
+			],
+			[
+				"subcateresult",
+				"app/views/setting_categories/sub_category_result.ctp"
+			],
+			[
+				"settincate",
+				"app/controllers/setting_categories_controller.php"
+			],
+			[
+				"settingcategorcatelist",
+				"app/views/setting_categories/sub_category_list.ctp"
+			],
+			[
+				"modcustomer",
+				"app/models/customer.php"
+			],
+			[
+				"prodcont",
+				"app/controllers/products_controller.php"
+			],
+			[
+				"invoi",
+				"app/controllers/invoices_controller.php"
+			],
+			[
+				"webpage",
+				"app/controllers/web_pages_controller.php"
+			],
+			[
+				"searchad",
+				"app/webroot/search_ahead.php"
+			],
+			[
+				"advansearch",
+				"app/views/web_pages/advance_search.ctp"
+			],
+			[
+				"smarse",
+				"app/webroot/smart_search.php"
+			],
+			[
+				"cusotmrout",
+				"app/vendors/CustomRouter.php"
+			],
+			[
+				"route",
+				"app/config/routes.php"
+			],
+			[
+				"diacon",
+				"app/controllers/diamonds_controller.php"
+			],
+			[
+				"webpagecon",
+				"app/controllers/web_pages_controller.php"
+			],
+			[
+				"modeuniqur",
+				"app/models/unique_url.php"
+			],
+			[
+				"settincatecon",
+				"app/controllers/setting_categories_controller.php"
+			],
+			[
+				"setingcatelist",
+				"app/views/setting_categories/sub_category_list.ctp"
+			],
+			[
+				"fileshtacc",
+				"app/webroot/files/.htaccess"
+			],
+			[
+				"uniqur",
+				"app/models/unique_url.php"
+			],
+			[
+				"settingcategolist",
+				"app/views/setting_categories/sub_category_list.ctp"
+			],
+			[
+				"script",
+				"app/config/scripts.php"
+			],
+			[
+				"settingcategorylist",
+				"app/views/setting_categories/sub_category_list.ctp"
+			],
+			[
+				"flatmenu",
+				"app/views/elements/flat_design_layout/flat_design_mega_menu.ctp"
+			],
+			[
+				"load",
+				"app/webroot/scripts/loader.js"
+			],
+			[
+				"modelcustomer.php",
+				"app/models/customer.php"
+			],
+			[
+				"heasc",
+				"app/views/elements/flat_design_layout/head_scripts.ctp"
+			],
+			[
+				"scrpphp",
+				"app/config/scripts.php"
+			],
+			[
+				"scripts",
+				"app/webroot/js/ui/scripts.js"
+			],
+			[
+				"listrak_conversion_tracking",
+				"app/views/elements/Tracking/listrak_conversion_tracking.ctp"
+			],
+			[
+				"headscript",
+				"app/views/elements/flat_design_layout/head_scripts.ctp"
+			],
+			[
+				"layout",
+				"app/views/layouts/flat_design.ctp"
+			],
+			[
+				"site",
+				"app/controllers/components/site.php"
+			],
+			[
+				"customercontroll",
+				"app/controllers/customers_controller.php"
+			],
+			[
+				"contaform",
+				"app/views/elements/contacts/contact-form.ctp"
+			],
+			[
+				"_register",
+				"app/views/customers/_register.ctp"
+			],
+			[
+				"registerctp",
+				"app/views/customers/register.ctp"
+			],
+			[
+				"big_rock_filter",
+				"app/views/elements/DiamondSearch/big_rock_filter.ctp"
+			],
+			[
+				"matchedpaidilist",
+				"app/views/diamonds/matched_pair_diamond_listing.ctp"
+			],
+			[
+				"bigrockli",
+				"app/views/diamonds/big_rock_diamond_listing.ctp"
+			],
+			[
+				"fancyolode",
+				"app/views/diamonds/fancycolor_details.ctp"
+			],
+			[
+				"diamoli",
+				"app/views/diamonds/diamond_listing.ctp"
+			],
+			[
+				"menu.cs",
+				"app/webroot/styles/menu.css"
+			],
+			[
+				"stysty",
+				"app/webroot/styles/style.css"
+			],
+			[
+				"topsearch",
+				"app/views/elements/top_sit_search.ctp"
+			],
+			[
+				"stystyle",
+				"app/webroot/styles/style.css"
+			],
+			[
+				"diamond_listing",
+				"app/views/diamonds/diamond_listing.ctp"
+			],
+			[
+				"dia",
+				"app/controllers/diamonds_controller.php"
+			],
+			[
+				"databa",
+				"app/config/database.php"
+			],
+			[
+				"diamond_basic_main_info",
+				"app/views/elements/DiamondDetails/diamond_basic_main_info.ctp"
+			],
+			[
+				"diamond_basic_details",
+				"app/views/elements/DiamondDetails/diamond_basic_details.ctp"
+			],
+			[
+				"diamodetai",
+				"app/views/diamonds/diamond_details.ctp"
+			],
+			[
+				"mega",
+				"app/views/elements/flat_design_layout/flat_design_mega_menu.ctp"
+			],
+			[
+				"flatdesing",
+				"app/views/layouts/flat_design.ctp"
+			],
+			[
+				"paymeop",
+				"app/views/carts/_payment_options.ctp"
+			],
+			[
+				"_payment_billing_forms",
+				"app/views/carts/_payment_billing_forms.ctp"
+			],
+			[
+				"paymenctp",
+				"app/views/carts/payment.ctp"
+			],
+			[
+				"compayflow",
+				"app/controllers/components/payflow.php"
+			],
+			[
+				"meg",
+				"app/views/elements/flat_design_layout/flat_design_mega_menu.ctp"
+			],
+			[
+				"core.php",
+				"app/config/core.php"
+			],
+			[
+				"topsites",
+				"app/views/elements/top_sit_search.ctp"
+			],
+			[
+				"header",
+				"app/views/elements/flat_design_layout/header.ctp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/bgd_public/public.sublime-project"
+			],
+			[
+				"pub",
+				"/var/www/bgd_public/public.sublime-project"
+			],
+			[
+				"admin",
+				"/var/www/bgd_admin/bgd-admin.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 138.0,
+		"selected_items":
+		[
+			[
+				"getsettingdeta",
+				"getSettingDetails"
+			]
+		],
+		"width": 813.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -18,6 +18,11 @@ Rails.application.routes.draw do
 
   resources :actors
 
+  resources :users
+
+  get 'login', to: 'users#login'
+  get 'logout', to: 'users#logout'
+
   match ':controller(/:action(/:id))', :via => [:get , :post]
 
   # The priority is based upon order of creation: first created -> highest priority.
