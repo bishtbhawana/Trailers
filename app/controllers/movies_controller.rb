@@ -24,12 +24,13 @@ class MoviesController < ApplicationController
   # POST /movies
   # POST /movies.json
   def create
-    # raise params[:movie][:actor_ids].inspect
+    # raise params.inspect
     actors = Actor.find params[:movie][:actor_ids].reject! { |c| c.empty? }
 
     @movie = Movie.new(movie_params)
     @movie.actors = actors
     @movie.picture = self.upload_photo
+    @movie.photos << self.upload_album_photo
 
     respond_to do |format|
       if @movie.save
@@ -47,8 +48,10 @@ class MoviesController < ApplicationController
   def update
     respond_to do |format|
       actors = Actor.find params[:movie][:actor_ids].reject! { |c| c.empty? }
-
+      
       @movie.actors = actors
+      photo = self.upload_album_photo
+      @movie.photos << photo if photo
 
       data = movie_params
       data[:picture] = self.upload_photo
@@ -88,13 +91,32 @@ class MoviesController < ApplicationController
   protected
     def upload_photo
       # raise params[:picture].inspect
+      if params[:picture].present?
+
       upload_io = params[:picture]
+
+      # raise params.inspect
 
       File.open( Rails.root.join('public', 'uploads', upload_io.original_filename), 'wb' ) do |file|
         file.write(upload_io.read)
       end
 
       pic = Picture.new :name => upload_io.original_filename
+    end
+    end
+
+    def upload_album_photo
+      # raise params[:picture].inspect
+      if params[:photos].present?
+
+        upload_io = params[:photos]
+
+        File.open( Rails.root.join('public', 'uploads', upload_io.original_filename), 'wb' ) do |file|
+          file.write(upload_io.read)
+        end
+
+        pic = Photo.new :name => upload_io.original_filename
+      end
     end
 
 

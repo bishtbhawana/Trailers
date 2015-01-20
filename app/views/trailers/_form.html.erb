@@ -12,8 +12,8 @@
   <% end %>
   <div class="field">
     <%= f.label :movie %>
+   <%= select "movie", "movie_id", options_for_select(Movie.all.collect {|p| [ p.name, p.id ] }, :selected => params[:movie_id]) %>
     
-    <%= select("movie", :movie_id, Movie.all.collect {|p| [ p.name, p.id ] }, {include_blank: 'None'}) %>
   </div>
 
   <div class="field">

@@ -13,7 +13,7 @@
   <tbody>
     <% @trailers.reverse.each do |trailer| %>
       <tr>
-        <td><%= trailer.movie.name %></td>
+        <td><%= trailer.movie.name rescue nil %></td>
         <td><%= YoutubeHelper::video_thumb(trailer.video_url).html_safe rescue nil %></td>
         <td><%= trailer.views %></td>
         <td><%= link_to 'Show', trailer,:class => 'btn' %></td>

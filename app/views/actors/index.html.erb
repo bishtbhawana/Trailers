@@ -5,7 +5,7 @@
     <tr>
       <th>Name</th>
       <th>Gender</th>
-      <th>Dob</th>
+      
       <th>No of movies</th>
       <th>About</th>
       <th colspan="3"></th>
@@ -21,7 +21,7 @@
           <%= image_tag('/uploads/' + image_name , :width => 100) if image_name %>
         </td>
         <td><%= actor.gender %></td>
-        <td><%= actor.dob %></td>
+        
         <td><%= actor.no_of_movies %></td>
         <td><%= actor.about %></td>
         <td><%= link_to 'Show', actor,:class => 'btn' %></td>

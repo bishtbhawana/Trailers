@@ -18,7 +18,21 @@
 
   <div class="field">
     <%= f.label :picture %>
+
     <%= file_field_tag :picture %>
+    <% image_name = @movie.picture.name rescue nil %>
+          <%= image_tag('/uploads/' + image_name , :width => 100) if image_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :photos %>
+    <%= file_field_tag :photos %>
+    <%
+   photos = @movie.photos rescue nil %>
+
+          <% photos.each do |photo| %>
+              <%= image_tag('/uploads/' + photo.name , :width => 100) %>
+          <% end %>
   </div>
 
   <div class="field">

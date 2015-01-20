@@ -2,7 +2,7 @@
 
 
   <strong>Video link:</strong>
-  <%= @trailer.video_frame.html_safe %>
+  <%= YoutubeHelper::video_frame(@trailer.video_url).html_safe %>
 
 
 <p>

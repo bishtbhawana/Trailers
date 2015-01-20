@@ -11,10 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150118135845) do
+ActiveRecord::Schema.define(version: 20150119141320) do
 
   create_table "actors", force: true do |t|
-    t.integer  "movie_id"
     t.string   "name"
     t.string   "gender",       limit: 1
     t.date     "dob"
@@ -24,8 +23,6 @@ ActiveRecord::Schema.define(version: 20150118135845) do
     t.datetime "updated_at"
   end
 
-  add_index "actors", ["movie_id"], name: "index_actors_on_movie_id", using: :btree
-
   create_table "actors_movies", id: false, force: true do |t|
     t.integer "movie_id"
     t.integer "actor_id"
@@ -33,10 +30,25 @@ ActiveRecord::Schema.define(version: 20150118135845) do
 
   add_index "actors_movies", ["movie_id", "actor_id"], name: "index_actors_movies_on_movie_id_and_actor_id", using: :btree
 
+  create_table "albums", force: true do |t|
+    t.string   "title"
+    t.integer  "movie_id"
+    t.integer  "photo_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "movies", force: true do |t|
     t.string   "name"
     t.date     "release_date"
     t.integer  "rating",       limit: 2
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "photos", force: true do |t|
+    t.string   "path"
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -55,6 +67,10 @@ ActiveRecord::Schema.define(version: 20150118135845) do
   create_table "publics", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "subscriptions", force: true do |t|
+    t.string "email", default: "", null: false
   end
 
   create_table "tests", force: true do |t|

@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
   root "publics#index"
-  resources :publics
+  resources :publics do
+    collection do
+      post 'subscribe'
+      
+    end
+  end 
+  
 
   get 'sessions/new'
 

@@ -1,7 +1,6 @@
 class CreateActors < ActiveRecord::Migration
   def up
     create_table :actors do |t|
-      t.integer "movie_id"
       t.string "name"
       t.string "gender" , :limit => 1
       t.date "dob"

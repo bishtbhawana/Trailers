@@ -4,7 +4,7 @@
 <h2><%= movie.name %></h2>
 <p><%= movie.release_date.strftime('%A %d , %B') rescue nil %></p>
  <% movie.trailers.each do |trailer| %>
- <%= trailer.video_thumb.html_safe rescue nil %>
+ <%= YoutubeHelper::video_frame(trailer.video_url).html_safe rescue nil %>
  <% end %>
 </div>
 <% end %>

@@ -15,18 +15,20 @@ class TrailersController < ApplicationController
 
   # GET /trailers/new
   def new
+
     @trailer = Trailer.new
-    # @movie =  Movie.all
+     
   end
 
   # GET /trailers/1/edit
   def edit
+    
   end
 
   # POST /trailers
   # POST /trailers.json
   def create
-    # raise params[:movie][:movie_id].inspect
+    # raise trailer_params.inspect
      @trailer = Trailer.new(trailer_params)
      @trailer.movie_id = params[:movie][:movie_id]
     respond_to do |format|
@@ -43,7 +45,7 @@ class TrailersController < ApplicationController
   # PATCH/PUT /trailers/1
   # PATCH/PUT /trailers/1.json
   def update
-    # raise params[:movie][:movie_id].inspect
+    # raise params.inspect
     respond_to do |format|
       @trailer.movie_id = params[:movie][:movie_id]
       if @trailer.update(trailer_params)
