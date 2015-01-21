@@ -6,20 +6,38 @@ Rails.application.routes.draw do
       
     end
   end 
-  
+  # get ':controller(/:action(/:id))'
+  # get 'clients/:status' => 'movies#test', foo: 'bar'
+  # get '/testing/status' =>  "movies#test"
 
   get 'sessions/new'
 
   get 'users/new'
 
-  resources :movies
+  resources :movies do
+    resources :trailers
+  end
 
-  resources :trailers
+  # resources :movies
 
-  resources :actors
+  # resources :trailers
+
+
+
+ # scope doesnt change routes. It remains same as for resource.
+  # scope :admin do
+  #   resources :actors
+  # end
+
+  namespace :admin do
+     resources :actors
+   end
+
+
+  # resources :actors
 
   resources :users
-
+  
   get 'login', to: 'users#login'
   get 'logout', to: 'users#logout'
 

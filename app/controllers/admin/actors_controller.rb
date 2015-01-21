@@ -5,6 +5,8 @@ class Admin::ActorsController < ApplicationController
   # GET /actors.json
   def index
     @actors = Actor.all
+    render '/actors/index'
+    
   end
 
   # GET /actors/1

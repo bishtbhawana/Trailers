@@ -5,8 +5,19 @@ class MoviesController < ApplicationController
   # GET /movies.json
   def index
     @movies = Movie.all
+    respond_to do |format|
+      format.html
+      format.pdf do
+        pdf = ReportPdf.new(@movies)
+        send_data pdf.render, filename:'report.pdf' , type: 'application/pdf'
+      end
+    end
   end
-
+   def test
+    raise params.inspect 
+   end
+     
+   
   # GET /movies/1
   # GET /movies/1.json
   def show

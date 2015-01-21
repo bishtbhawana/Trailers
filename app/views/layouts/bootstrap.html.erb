@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,10 +14,10 @@
 			<%= link_to 'Home', '/', :class => 'brand' %>
 			<ul class="nav">
 			  <li class="active">
-			    <%= link_to 'Actors', actors_path %>
+			    <%= link_to 'Actors', admin_actors_path %>
 			  </li>
 			  <li><%= link_to 'Movies', movies_path %></li>
-			  <li><%= link_to 'Trailers', trailers_path %></li>
+			  
 			</ul>
 			<% if @current_user %>
 			<%= link_to @current_user + ' Logout', '/logout', :class => 'brand pull-right' %>
@@ -40,7 +41,7 @@
 	  <%= notice %>
 	</div>
 	<% end %>
-
+    <p><%= @timetaken %>vhdgfhj</p>
 	<%= yield %>
 	</div>
 	<script type="text/javascript">

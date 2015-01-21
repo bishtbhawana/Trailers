@@ -4,19 +4,24 @@ class TrailersController < ApplicationController
   # GET /trailers
   # GET /trailers.json
   def index
-    @trailers = Trailer.all
+    # raise params.inspect
+    
+    @movie = Movie.find(params[:movie_id])
+    @trailers =  @movie.trailers
     # @test = YoutubeHelper::test
   end
 
   # GET /trailers/1
   # GET /trailers/1.json
   def show
+    # raise movie_trailer_url.inspect
   end
 
   # GET /trailers/new
   def new
-
+    
     @trailer = Trailer.new
+    @movie = Movie.find(params[:movie_id])
      
   end
 
@@ -63,7 +68,7 @@ class TrailersController < ApplicationController
   def destroy
     @trailer.destroy
     respond_to do |format|
-      format.html { redirect_to trailers_url, notice: 'Trailer was successfully destroyed.' }
+      format.html { redirect_to movie_trailers_url, notice: 'Trailer was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
@@ -71,6 +76,8 @@ class TrailersController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_trailer
+      # raise params.inspect
+      @movie = Movie.find(params[:movie_id])
       @trailer = Trailer.find(params[:id])
     end
 

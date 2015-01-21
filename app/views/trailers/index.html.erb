@@ -16,9 +16,9 @@
         <td><%= trailer.movie.name rescue nil %></td>
         <td><%= YoutubeHelper::video_thumb(trailer.video_url).html_safe rescue nil %></td>
         <td><%= trailer.views %></td>
-        <td><%= link_to 'Show', trailer,:class => 'btn' %></td>
-        <td><%= link_to 'Edit', edit_trailer_path(trailer),:class => 'btn' %></td>
-        <td><%= link_to 'Destroy', trailer, method: :delete, data: { confirm: 'Are you sure?' },:class => 'btn' %></td>
+        <td><%= link_to 'Show', movie_trailer_path(@movie,trailer),:class => 'btn' %></td>
+         <td><%= link_to 'Edit', edit_movie_trailer_path(@movie,trailer),:class => 'btn' %></td>
+        <td><%= link_to 'Destroy', movie_trailer_path(@movie,trailer), method: :delete, data: { confirm: 'Are you sure?' },:class => 'btn' %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Trailer', new_trailer_path, :class => 'btn' %>
+<%= link_to 'New Trailer', new_movie_trailer_path, :class => 'btn' %>

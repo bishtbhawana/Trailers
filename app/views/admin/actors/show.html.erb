@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @actor.name %>
+</p>
+  <% image_name = @actor.picture.name rescue nil %>
+          <%= image_tag('/uploads/' + image_name , :width => 100) if image_name %>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @actor.gender %>
+</p>
+
+
+
+<p>
+  <strong>No of movies:</strong>
+  <%= @actor.no_of_movies %>
+</p>
+
+<p>
+  <strong>About:</strong>
+  <%= @actor.about %>
+</p>
+
+<%= link_to 'Edit', edit_actor_path(@actor),:class => 'btn' %> |
+<%= link_to 'Back', actors_path,:class => 'btn' %>
