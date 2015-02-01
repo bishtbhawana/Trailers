@@ -17,6 +17,8 @@
 			  </li>
 			  <li><%= link_to 'Movies', movies_path %></li>
 			  <li><%= link_to 'Trailers', trailers_path %></li>
+			  <li><a href="/setprefs?lang=hi">Hindi</a></li>
+			  <li><a href="/setprefs?lang=en">English</a></li>
 			</ul>
 			<% if @current_user %>
 			<%= link_to @current_user + ' Logout', '/logout', :class => 'brand pull-right' %>
@@ -28,8 +30,8 @@
 	</div>
 	<div class="jumbotron">
 		<div class="container">
-			<h1>Trailer Hungama</h1>
-			<p>Stay updated with all new movies trailers</p>
+			<h1><%=  t :title %>Trailer Hungama</h1>
+			<p><%= t :tagline %>Stay updated with all new movies trailers</p>
 		</div>
 	</div>
 	<div class="container">

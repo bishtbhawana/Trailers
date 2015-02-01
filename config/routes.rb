@@ -1,17 +1,12 @@
 Rails.application.routes.draw do
   root "publics#index"
-  resources :publics do
-    collection do
-      post 'subscribe'
-      
-    end
-  end 
-  
+
+  resources :publics
 
   get 'sessions/new'
 
   get 'users/new'
-
+  
   resources :movies
 
   resources :trailers
@@ -19,7 +14,7 @@ Rails.application.routes.draw do
   resources :actors
 
   resources :users
-
+  get 'setprefs', to: 'users#setprefs'
   get 'login', to: 'users#login'
   get 'logout', to: 'users#logout'
 

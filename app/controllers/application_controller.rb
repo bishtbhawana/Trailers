@@ -9,6 +9,8 @@ class ApplicationController < ActionController::Base
 
   	@current_user = session[:current_user]
 
+  	I18n.locale = cookies[:lang]
+
   end
 
 end

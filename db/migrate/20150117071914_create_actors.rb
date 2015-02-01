@@ -8,7 +8,7 @@ class CreateActors < ActiveRecord::Migration
       t.text "about"
       t.timestamps
     end
-    add_index("actors","movie_id")
+    # add_index("actors","movie_id")
   end
   def down
   	drop_table :actors

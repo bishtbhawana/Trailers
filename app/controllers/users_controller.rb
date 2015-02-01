@@ -31,6 +31,10 @@ class UsersController < ApplicationController
     session[:current_user] = nil
     redirect_to '/', :notice => 'you are now logged out'
   end
+  def setprefs
+    cookies[:lang] = params[:lang]
+    redirect_to(:back)
+  end
 
 
   private

@@ -520,10 +520,50 @@
 	"buffers":
 	[
 		{
+			"file": "db/migrate/20150117071914_create_actors.rb",
+			"settings":
+			{
+				"buffer_size": 330,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "app/controllers/actors_controller.rb",
 			"settings":
 			{
-				"buffer_size": 2337,
+				"buffer_size": 2404,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/actor.rb",
+			"settings":
+			{
+				"buffer_size": 103,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/movie.rb",
+			"settings":
+			{
+				"buffer_size": 310,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/movies_controller.rb",
+			"settings":
+			{
+				"buffer_size": 3087,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1973,
 				"line_ending": "Unix"
 			}
 		}
@@ -984,12 +1024,19 @@
 	},
 	"expanded_folders":
 	[
-		"/home/admin1/master_servers/btrailer",
-		"/home/admin1/master_servers/btrailer/app",
-		"/home/admin1/master_servers/btrailer/app/controllers"
+		"/home/bhawana/workspace/trailers",
+		"/home/bhawana/workspace/trailers/app",
+		"/home/bhawana/workspace/trailers/app/controllers",
+		"/home/bhawana/workspace/trailers/app/models",
+		"/home/bhawana/workspace/trailers/config",
+		"/home/bhawana/workspace/trailers/db",
+		"/home/bhawana/workspace/trailers/db/migrate"
 	],
 	"file_history":
 	[
+		"/home/bhawana/workspace/trailers/app/models/picture.rb",
+		"/home/bhawana/workspace/trailers/app/models/album.rb",
+		"/home/bhawana/workspace/trailers/app/controllers/movie_controller.rb",
 		"/home/admin1/master_servers/btrailer/test/controllers/users_controller_test.rb",
 		"/home/admin1/master_servers/btrailer/db/migrate/20150117112900_create_users.rb",
 		"/home/admin1/master_servers/btrailer/config.ru",
@@ -1114,14 +1161,11 @@
 		"/var/www/flat_public/app/tmp/cache/models/cake_model_default_product_opportunities",
 		"/var/www/flat_public/app/tmp/cache/models/cake_model_default_payments",
 		"/var/www/flat_public/app/models/product.php",
-		"/var/www/flat_public/app/controllers/products_controller.php",
-		"/var/www/flat_public/app/models/quickbook.php",
-		"/var/www/flat_public/app/models/quote_item.php",
-		"/var/www/flat_public/app/views/elements/DiamondDetails/diamond_basic_main_info.ctp"
+		"/var/www/flat_public/app/controllers/products_controller.php"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -1339,29 +1383,28 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/controllers/actors_controller.rb",
-					"semi_transient": true,
+					"file": "db/migrate/20150117071914_create_actors.rb",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2337,
+						"buffer_size": 330,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								307,
-								307
+								247,
+								247
 							]
 						],
 						"settings":
 						{
-							"function_name_status_row": 16,
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -1370,7 +1413,153 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/actors_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								517,
+								517
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 271.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/models/actor.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/models/movie.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								310,
+								310
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/movies_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3087,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2418,
+								2418
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 232.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1378,7 +1567,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -1418,7 +1607,7 @@
 	"project": "trailers.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1981,7 +2170,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 290.0,
+	"side_bar_width": 225.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
