@@ -1,15 +1,20 @@
 Rails.application.routes.draw do
+  # get '/:locale' => 'publics#index'
   root "publics#index"
-  resources :publics do
-    collection do
-      post 'subscribe'
+  scope "/:locale" do
+    resources :publics
+  end
+  # resources :publics do
+  #   collection do
+  #     post 'subscribe'
       
-    end
-  end 
+  #   end
+  # end 
   # get ':controller(/:action(/:id))'
   # get 'clients/:status' => 'movies#test', foo: 'bar'
   # get '/testing/status' =>  "movies#test"
-
+  # get '/stories', to: redirect('/users')
+  
   get 'sessions/new'
 
   get 'users/new'
@@ -25,19 +30,19 @@ Rails.application.routes.draw do
 
 
  # scope doesnt change routes. It remains same as for resource.
-  # scope :admin do
-  #   resources :actors
-  # end
+  scope :admin do
+    resources :actors
+  end
 
-  namespace :admin do
-     resources :actors
-   end
+  # namespace :admin do
+  #    resources :actors
+  #  end
 
 
   # resources :actors
 
   resources :users
-  
+  get 'setprefs', to: 'users#setprefs'
   get 'login', to: 'users#login'
   get 'logout', to: 'users#logout'
 

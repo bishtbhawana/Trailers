@@ -24,9 +24,9 @@
         
         <td><%= actor.no_of_movies %></td>
         <td><%= actor.about %></td>
-        <td><%= link_to 'Show', admin_actor_path(actor),:class => 'btn' %></td>
-        <td><%= link_to 'Edit', edit_admin_actor_path(actor),:class => 'btn' %></td>
-        <td><%= link_to 'Destroy', admin_actor_path(actor), method: :delete, data: { confirm: 'Are you sure?' },:class => 'btn' %></td>
+        <td><%= link_to 'Show', actor_path(actor),:class => 'btn' %></td>
+        <td><%= link_to 'Edit', edit_actor_path(actor),:class => 'btn' %></td>
+        <td><%= link_to 'Destroy', actor_path(actor), method: :delete, data: { confirm: 'Are you sure?' },:class => 'btn' %></td>
       </tr>
     <% end %>
   </tbody>
@@ -34,4 +34,4 @@
 
 <br>
 
-<%= link_to 'New Actor', new_admin_actor_path, :class => 'btn' %>
+<%= link_to 'New Actor', new_actor_path, :class => 'btn' %>

@@ -21,3 +21,19 @@
 
 en:
   hello: "Hello world"
+  title: Trailer Hungama
+  tagline_html: <b>Stay Updated</b>
+  time:
+    formats:
+      short: "arrrround %H'ish"
+
+     
+  activerecord:
+    models:
+      user: Dude
+    attributes:
+      user:
+        login: "Handle"
+
+
+

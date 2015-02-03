@@ -1,0 +1,7 @@
+hi:
+  hello: "Hello world"
+  title: "ट्रेलरों"
+  tagline: "रहो Updated"
+  time:
+    formats:
+      short: "arrrround %H'ish"

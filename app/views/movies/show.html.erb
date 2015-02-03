@@ -12,7 +12,10 @@
    photos = @movie.photos rescue nil %>
 
           <% photos.each do |photo| %>
+          <div>
               <%= image_tag('/uploads/' + photo.name , :width => 100) %>
+              <%= link_to 'Download', {:action => 'download_image', :id => photo.id},:class => 'btn' %>
+          <br><br></div>
           <% end %>
 
 
@@ -31,6 +34,5 @@
   <strong>Rating:</strong>
   <%= @movie.rating %>
 </p>
-
 <%= link_to 'Edit', edit_movie_path(@movie),:class => 'btn' %> |
 <%= link_to 'Back', movies_path,:class => 'btn' %>

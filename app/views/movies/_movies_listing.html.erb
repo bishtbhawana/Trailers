@@ -1,0 +1,16 @@
+<% @movies.each do |movie| %>
+      <tr>
+        <td>
+          <p><%= movie.name %></p>
+          <% image_name = movie.picture.name rescue nil %>
+          <%= image_tag('/uploads/' + image_name , :width => 100) if image_name %>
+        </td>
+        <td><%=  movie.actors.map { |actor| actor.name }.join "," %></td>
+        <td><%= movie.release_date %></td>
+        <td><%= movie.rating %></td>
+        <td><%= link_to 'Show', movie,:class => 'btn' %></td>
+        <td><%= link_to 'Edit', edit_movie_path(movie),:class => 'btn' %></td>
+        <td><%= link_to 'Destroy', movie, method: :delete, data: { confirm: 'Are you sure?' },:class => 'btn' %></td>
+        <td><%= link_to 'Trailers', movie_trailers_path(movie),:class => 'btn' %></td>
+      </tr>
+    <% end %>

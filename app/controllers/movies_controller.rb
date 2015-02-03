@@ -1,10 +1,19 @@
 class MoviesController < ApplicationController
+  # http_basic_authenticate_with name: "humbaba", password: "5baa61e4"
+  # USERS = { "lifo" => "world" }
+  # include ActionController::Live
   before_action :set_movie, only: [:show, :edit, :update, :destroy]
+  # before_action :authenticate
 
   # GET /movies
   # GET /movies.json
   def index
+     
     @movies = Movie.all
+    # raise params[:search].inspect
+    if !params[:search].nil?
+      @movies = Movie.search(params[:search])
+    end
     respond_to do |format|
       format.html
       format.pdf do
@@ -13,14 +22,40 @@ class MoviesController < ApplicationController
       end
     end
   end
+
+  def download_image
+    photo = Photo.find params[:id]
+
+       send_file("#{Rails.root}/public/uploads/#{photo.name}",
+                 filename: "#{photo.name}",
+                 type: "image/jpg")
+
+  end
+
    def test
-    raise params.inspect 
+    # raise params.inspect 
    end
      
+  def stream
+    response.headers['Content_Type'] = 'text/event-stream'
+    100.times{
+      response.stream.write "hello world\n"
+      sleep 1
+    }
+  ensure
+    response.stream.close
+   end
+  
    
   # GET /movies/1
   # GET /movies/1.json
   def show
+    # raise cookies[:movie_name].inspect
+    # @movie = Movie.find(params[:id])
+    # respond_to do |format|
+    #   format.html
+    #   format.pdf { render pdf: generate_pdf(@movie)}
+    # end
   end
   def test
     raise params.inspect
@@ -28,7 +63,8 @@ class MoviesController < ApplicationController
 
   # GET /movies/new
   def new
-    @movie = Movie.new
+      @movie = Movie.new
+    # @movie.trailers = Trailers.find(@movie.id)
   end
 
   # GET /movies/1/edit
@@ -38,7 +74,7 @@ class MoviesController < ApplicationController
   # POST /movies
   # POST /movies.json
   def create
-    # raise params.inspect
+     # raise params.inspect
     actors = Actor.find params[:movie][:actor_ids].reject! { |c| c.empty? }
 
     @movie = Movie.new(movie_params)
@@ -48,9 +84,12 @@ class MoviesController < ApplicationController
 
     respond_to do |format|
       if @movie.save
+        cookies[:movie_name] = @movie.name
+
         format.html { redirect_to @movie, notice: 'Movie was successfully created.' }
         format.json { render :show, status: :created, location: @movie }
       else
+         cookies.delete(:movie_name)
         format.html { render :new }
         format.json { render json: @movie.errors, status: :unprocessable_entity }
       end
@@ -91,6 +130,7 @@ class MoviesController < ApplicationController
     end
   end
 
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_movie
@@ -101,6 +141,11 @@ class MoviesController < ApplicationController
     def movie_params
       params.require(:movie).permit(:name, :release_date, :rating, :actor_ids => [])
     end
+    # def authenticate
+    #   authenticate_or_request_with_http_digest do |username|
+    #     USERS[username]
+    #   end
+    # end
 
   protected
     def upload_photo

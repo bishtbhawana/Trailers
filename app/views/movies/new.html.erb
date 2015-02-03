@@ -1,5 +1,7 @@
 <h1>New movie</h1>
+<%= form_for(@movie, :html => { :multipart => true }) do |f| %>
 
-<%= render 'form' %>
+<%= render(:partial => "form", layout:'box', :locals => {:f => f}) %>
 
 <%= link_to 'Back', movies_path %>
+<% end %>

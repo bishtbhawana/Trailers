@@ -5,10 +5,11 @@ class User < ActiveRecord::Base
   before_save :encrypt_password
   
   validates_confirmation_of :password
-  validates_presence_of :password, :on => :create
-  validates_presence_of :email
-  validates_uniqueness_of :email
-  
+  # validates_presence_of :password, :on => :create
+  # validates_presence_of :email
+  # validates_uniqueness_of :email
+  validates :email, presence: true
+  # before_validation :ensure_login_has_a_value
   def self.authenticate(email, password)
     user = find_by_email(email)
     if user && user.password_hash == BCrypt::Engine.hash_secret(password, user.password_salt)
@@ -24,4 +25,10 @@ class User < ActiveRecord::Base
       self.password_hash = BCrypt::Engine.hash_secret(password, password_salt)
     end
   end
+  protected
+  def ensure_login_has_a_value
+      if email.nil?
+        self.email = email unless email.blank?
+      end
+    end
 end

@@ -1,5 +1,5 @@
-<%= form_for(@movie, :html => { :multipart => true }) do |f| %>
   <% if @movie.errors.any? %>
+  <%= debug @movie %>
     <div id="error_explanation">
       <h2><%= pluralize(@movie.errors.count, "error") %> prohibited this movie from being saved:</h2>
 
@@ -15,8 +15,7 @@
     <%= f.label :name %>
     <%= f.text_field :name %>
   </div>
-
-  <div class="field">
+     <div class="field">
     <%= f.label :picture %>
 
     <%= file_field_tag :picture %>
@@ -37,8 +36,16 @@
 
   <div class="field">
     <%= f.label :release_date %>
-    <%= f.date_select :release_date %>
+    <%= select_date (Time.now + 6.days) %>
   </div>
+
+  <!-- <div class="field">
+    <%= f.label :release_date %>
+    <%= time_ago_in_words(3.minutes.from_now) %>
+  </div> -->
+  <!-- <div>
+    <%= time_select("order", "submitted") %>
+  </div> -->
   <div class="field">
     <%= f.label :casts %>
     <%= f.collection_select :actor_ids, Actor.order(:name), :id, :name, {}, {multiple: true, size: 10} %>
@@ -50,4 +57,22 @@
   <div class="actions">
     <%= f.submit :class => 'btn btn-primary' %>
   </div>
+  <div>
+   <%= time_zone_select(:person, :time_zone) %>
+  </div>
+  <div>
+   <%= select_date Date.today, prefix: :start_date %>
+  </div>
+  <div>
+    <%= date_select :person, :birth_date %>
+  </div>
+  
+  <% content_for :page_title do %>
+    Awesome page
 <% end %>
+
+<script>
+// button_to_function "Greeting", "alert('Hello world!')"
+  // alert('nfhdjhfjdgj');
+  // link_to_function "Greeting", "alert('Hello world!')"
+</script>
