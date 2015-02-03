@@ -24,7 +24,7 @@ class ActorsController < ApplicationController
   # POST /actors
   # POST /actors.json
   def create
-
+    # raise params.inspect
     @actor = Actor.new(actor_params)
     @actor.picture = self.upload_photo
     # raise params.inspect
@@ -85,6 +85,7 @@ class ActorsController < ApplicationController
   protected
     def upload_photo
       # raise params[:picture].inspect
+      if params[:picture].present?
       upload_io = params[:picture]
 
       File.open( Rails.root.join('public', 'uploads', upload_io.original_filename), 'wb' ) do |file|
@@ -93,5 +94,6 @@ class ActorsController < ApplicationController
 
       pic = Picture.new :name => upload_io.original_filename
     end
+  end
 
 end

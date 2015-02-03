@@ -11,8 +11,8 @@ class Movie < ActiveRecord::Base
 	has_many :trailers, dependent: :destroy
 	has_one :picture, as: :imageable
 
-	has_many :albums
-	has_many :photos , through: :albums
+	has_many :albums, dependent: :destroy
+	has_many :photos , through: :albums, dependent: :destroy
 
 	validates :picture,presence:false
 	validates :name,presence:true
@@ -44,3 +44,4 @@ class Movie < ActiveRecord::Base
       end
 
 end
+ 

@@ -42,3 +42,5 @@ gem 'delayed_job_active_record'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'redcarpet', '~> 2.1.1'
+gem 'nokogiri'
